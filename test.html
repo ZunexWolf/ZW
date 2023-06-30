@@ -1,0 +1,46 @@
+<!--
+Crea un título **h1** y tres títulos **h2** cada uno acompañado de un texto **p.** Dale color a los elementos mediante los selectores que creas convenientes, pero ten en cuenta que:
+
+* El h1 será de color naranja
+* El primer h2 será de color rojo
+* El segundo h2 será de color verde
+* El tercer h2 será de color azul
+* El p que acompaña al primer h2 será azul
+* El p que acompaña al segundo h2 será rojo
+* El p que acompaña al tercer h2 será verde
+-->
+<html>
+    <head>
+        <script type="text/javascript">
+            function test(){
+                alert("Hola mundo");
+            }
+        </script>
+        <style type="text/css">
+            h1 {
+                color: orange;
+            }
+
+            .h2_rojo {
+                color: red;
+            }
+
+            .h2_verde {
+                color: green;
+            }
+
+            .h2_azul {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>El h1 será de color naranja</h1>
+        <h2 class="h2_rojo">El primer h2 será de color rojo</h2>
+        <p class="h2_azul">El p que acompaña al primer h2 será azul</p>
+        <h2 class="h2_verde">El segundo h2 será de color verde</h2>
+        <p class="h2_rojo">El p que acompaña al segundo h2 será rojo</p>
+        <h2 class="h2_azul">El tercer h2 será de color azul</h2>
+        <p class="h2_verde">El p que acompaña al tercer h2 será verde</p>
+    </body>
+</html>
